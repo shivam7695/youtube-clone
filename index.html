@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="360_F_596310626_hNfoXnnyGQUP0sBtTd8WiKyKV7XCUs1I.webp" href="360_F_596310626_hNfoXnnyGQUP0sBtTd8WiKyKV7XCUs1I-ezgif.com-webp-to-jpg-converter-removebg-preview.png
+    "  />
+    <title>youtube-clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img class="menu" src="menu.png" onclick="click" alt="" />
+        <img class="logo" src="download-removebg-preview.png" alt="" />
+      </div>
+      <div class="nav-middle flex-div">
+        <div class="search-box">
+          <input type="text" class="search-bar" placeholder="search">
+          <button class="search-btn"><img src="search.png" alt=""></button>
+      </div>
+        <!-- <div class="searchbar flex-div">
+          <input type="search-bar" class="" placeholder="Search" />
+          <button class="search-btn"><img src="search.png" alt="" /></button>
+        </div> -->
+        <div><img src="voice-search.png" class="mic-icon" alt="" /></div>
+        
+      </div>
+      <div class="nav-right flex-div">
+        <img src="upload.png" alt="" />
+        <img src="more.png" alt="" />
+        <img
+          src="notification.png"
+          class="notifiaction"
+          onclick="changeimage()"
+          alt=""
+        />
+        <img src="Jack.png" class="user-icon" onclick="clicks" alt="" />
+      </div>
+    </nav>
+    <!-- ---------sidebar---------- -->
+
+    <div class="sidebar ">
+      <div class="shortcuts-links">
+        
+          <a href="#"
+            ><img src="home.png" alt="" />
+            <p>Home</p></a
+          >
+          <a href="#" ><img src="Youtube-shorts-icon-png.png" alt="">
+            <p>Shorts</p></a>
+          <a href="#"> <img src="subscriprion.png" alt=""
+            ><p>Subscriptions</p></a
+          >
+          <hr />
+       
+        <a href="#">
+          <img src="explore.png" alt="" />
+          <p>Explore</p></a
+        >
+        <a href="#"
+          ><img src="library.png" alt="" />
+          <p>Library</p></a
+        >
+        <a href="#">
+          <img src="history.png" alt="" />
+          <p>History</p></a
+        >
+        <a href="#"
+          ><img src="playlist.png" alt="" />
+          <p>Playlist</p></a
+        >
+        <a href="#"
+          ><img src="messages.png" alt="" />
+          <p>Message</p></a
+        >
+        <a href="#"
+          ><img src="show-more.png" alt="" />
+          <p>show More</p></a
+        >
+        <hr />
+      </div>
+      <div class="subscribed-list">
+        <h3>SUBSCRIBED</h3>
+        <a href=""><img src="Jack.png" alt=""><p>Virat Kohli</p></a>
+        <a href=""><img src="simon.png" alt=""><p>Hritik Roshan </p></a> 
+        <a href=""><img src="tom.png" alt=""><p>Rohit Sharma</p></a>
+        <a href=""><img src="megan.png" alt=""><p>Yuvraj singh</p></a>
+        <a href=""><img src="cameron.png" alt=""><p>joe baidan</p></a>
+        <a href=""><img src="Jack.png" alt=""><p>kim jom</p></a>
+      <hr>
+      </div>
+      <div class="about">
+        <p>
+          About Press Copyright Contact us Creators Advertise Developer
+        </p>
+        <p>
+          Term Privacy Policy & Safety How YouTube works Test new Feature
+        </p>
+        <p class="text-black-50 ">© 2023 Google LLC</p>
+      </div>
+    </div>
+
+
+
+
+    <!-- <nav class="navbar">
+      <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <img src="img/logo.PNG" class="logo" alt="">
+      <div class="search-box">
+          <input type="text" class="search-bar" placeholder="search">
+          <button class="search-btn"><img src="img/search.PNG" alt=""></button>
+      </div>
+      <div class="user-options">
+          <img src="img/video.PNG" class="icon" alt="">
+          <img src="img/grid.PNG" class="icon" alt="">
+          <img src="img/bell.PNG" class="icon" alt="">
+          <div class="user-dp">
+              <img src="img/profile-pic.png" alt="">
+          </div>
+      </div>
+  </nav> -->
+
+  <!-- sidebar -->
+  <!-- <div class="side-bar">
+      <a href="#" class="links active"><img src="img/home.PNG" alt="">home</a>
+      <a href="#" class="links"><img src="img/explore.PNG" alt="">explore</a>
+      <a href="#" class="links"><img src="img/subscription.PNG" alt="">subscription</a>
+      <hr class="seperator">
+      <a href="#" class="links"><img src="img/library.PNG" alt="">library</a>
+      <a href="#" class="links"><img src="img/history.PNG" alt="">history</a>
+      <a href="#" class="links"><img src="img/your-video.PNG" alt="">your video</a>
+      <a href="#" class="links"><img src="img/watch-later.PNG" alt="">watch leater</a>
+      <a href="#" class="links"><img src="img/liked video.PNG" alt="">like video</a>
+      <a href="#" class="links"><img src="img/show more.PNG" alt="">show more</a>
+  </div> -->
+
+  <!-- filters -->
+  <div class="filters">
+      <button class="filter-options active">all</button>
+      <button class="filter-options">CSS</button>
+      <button class="filter-options">web development</button>
+      <button class="filter-options">python</button>
+      <button class="filter-options">entertainment</button>
+      <button class="filter-options">marvel</button>
+      <button class="filter-options">javascript</button>
+      <button class="filter-options">artificial intelligence</button>
+      <button class="filter-options">machine learning</button>
+      <button class="filter-options">trending</button>
+  </div>
+
+  <!-- videos -->
+  <div class="containers">
+    <div class="banner">
+      <img src="banner.png" alt="">
+    </div>
+  </div>
+  <div class="video-container">
+    
+      <!-- <div class="video">
+          <img src="img/profile-pic.png" class="thumbnail" alt="">
+          <div class="content">
+              <img src="img/profile-pic.png" class="channel-icon" alt="">
+              <div class="info">
+                  <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                  <p class="channel-name">modern web</p>
+              </div>
+          </div>
+      </div> -->
+  </div>
+
+  <script src="https://apis.google.com/js/api.js"></script>
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
